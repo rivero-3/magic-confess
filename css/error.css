@@ -1,0 +1,22 @@
+img {
+   margin: 14rem 37.5rem 0 37.5rem;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3rem;
+}
+
+.button button {
+   background-color: black;
+   padding: 0.6rem;
+   border-radius: 10px;
+}
+
+.button a {
+   color: white;
+   text-decoration: none;
+   padding: 1rem;
+}

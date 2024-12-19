@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 600px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+    margin-bottom: 10.3rem;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.search-form input[type="text"] {
+    width: 60rem;
+    padding: 10px;
+    border: none;
+    font-size: 14px;
+}
+
+.search-form button {
+    padding: 10px 35px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.boxx {
+    display: flex;
+    flex-wrap: wrap;
+}

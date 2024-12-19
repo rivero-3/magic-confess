@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    height: 100px; /* Membuat kotak teks menyerupai textarea */
+    resize: none; /* Mencegah perubahan ukuran */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #57707a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c5bac4;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.form {
+    margin-top: 11rem;
+    margin-bottom: 6rem;
+}
